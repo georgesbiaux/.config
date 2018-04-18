@@ -1,0 +1,17 @@
+[alias]
+  st = status
+  lg = log -M --decorate --graph
+  ci = commit
+  pur = pull --rebase
+  br = branch
+  co = checkout
+  sth = stash
+  rc = rebase --continue
+
+[push]
+  default = current
+[user]
+	email = georgesb@theodo.fr
+	name = georgesbiaux
+[core]
+	editor = vim
